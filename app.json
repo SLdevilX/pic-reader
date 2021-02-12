@@ -1,0 +1,31 @@
+{
+    "name": "AI Lexa",
+    "description": "An AI based Telegram bot that can describe every photo that you send.",
+    "keywords": [
+        "AI",
+        "Alvi",
+        "Fun",
+        "Telegram",
+        "Bot"
+    ],
+    "logo": "https://telegra.ph/file/62bbc14a206db1871b0b0.jpg",
+    "repository": "https://github.com/SLdevilX/pic-reader",
+    "success_url": "/",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },"BOT_NAME": {
+            "description": "your Telegram Bot Name"
+        },
+        "BOT_USERNAME": {
+            "description": "Your telegram bot username"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
